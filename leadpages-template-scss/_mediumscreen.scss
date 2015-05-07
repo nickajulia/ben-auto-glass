@@ -1,0 +1,313 @@
+//_mediumscreen.scss
+
+// Medium screens
+@media only screen and (min-width: 49.063em) { 
+
+
+
+/*-- header  --*/
+
+.logo {
+	display: block;
+	float: left;
+	
+	}
+.headerSpace{
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.headerTextLg{
+  font-family: 'Open Sans', sans-serif;
+  font-size: calc(30px);
+  letter-spacing: -1.5px;
+  font-weight: 600;
+}
+
+/*-- hero  --*/
+
+#hero{
+  height: calc(600px);
+}
+
+
+
+
+.bgImg{
+  
+  height: calc(650px);
+}
+
+#hero {
+  h1{
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: calc(50px);
+  font-weight: bold;
+  }
+  #hero h2{
+    color: #ffffff;
+    font-family: Oswald, sans-serif;
+    font-size: calc(72px);
+    font-weight: 300;
+
+  }
+  p{
+  color: #ffffff;
+  font-family: Oswald, sans-serif;
+  font-size: calc(30px);
+  font-weight: 300;
+
+  }
+  .date{
+     color: #ffffff;
+    font-family: Oswald, sans-serif;
+    font-size: calc(40px);
+    font-weight: bold;
+  }
+
+
+}
+
+.line{
+  background-color: #ffffff;
+  height: calc(1px);
+
+}
+
+.redBtn, .redBtn2{
+    
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+   -webkit-box-shadow: 1px 1px 1px 1px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all .2s ease-in-out;
+  white-space: normal;
+  font-size: calc(30px) !important;
+
+  &:hover{
+    transform: scale(1.1);
+     
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+   -webkit-box-shadow: 1px 1px 1px 1px #000;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px #000;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px #000;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  transition: all .2s ease-in-out;
+  white-space: normal;
+  text-decoration: none;
+  }
+
+}
+.redBtn2
+{
+  font-size: calc(22px) !important;
+}
+
+
+.countdown {
+	li{
+		margin: 0 0px !important;
+		span{
+			font-size: calc(90px)!important;
+			font-weight: 100!important;
+			line-height: 90px!important;
+		}
+	}
+}
+
+/*--- section 2 ---*/
+.section2Grid {
+  @include block-grid(
+    // This controls how many elements will be on each row of the block grid. Set this to whatever number you need, up to the max allowed in the variable.
+    // Available options: 1-12 by default, and false.
+    $per-row: 7,
+
+    // This controls how much space is between each item in the block grid.
+    // Use a variable or any pixel or em values.
+    $spacing: $block-grid-default-spacing,
+
+    // This controls whether or not base styles come through, set to false to leave out.
+    $base-style: true
+  );
+
+
+}
+
+.section2Grid  li{
+  margin-bottom: 0px;
+}
+
+
+/*----------- Testimoinal Block Grid ---------*/
+
+
+.testiBlockGrid, .testiBlockGrid2, .testiBlockGrid3{
+  width: 80%;
+  margin-bottom: 0;
+  margin-top: calc(30px);
+  //width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+   li:nth-child(1), li:nth-child(3){ 
+      blockquote{
+      border-left: 0;
+      padding:5px;
+      //text-align: left;
+      border:2px solid $blockquoteGrey;
+          
+          &:before, &:after{
+            content:"";
+            width: 0; 
+              height: 0; 
+              }
+
+          &:before{
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent; 
+            border-right:25px solid $blockquoteGrey;
+            position: absolute;
+            left:-33px;
+            top:25px;
+          }    
+          &:after{
+             border-top: 23px solid transparent;
+             border-bottom: 23px solid transparent;
+             border-right: 23px solid white;
+             position: absolute;
+             left: -28px;
+             top: 27px;
+          }
+      }
+    }
+    li:nth-child(2), li:nth-child(4){
+      blockquote{
+       border-left: 0;
+       padding:5px;
+       //text-align: left;
+       border:2px solid $blockquoteGrey;
+           
+        &:before, &:after{
+        content:"";
+        width: 0; 
+        height: 0; 
+               }
+
+           &:before{
+             border-top: 25px solid transparent;
+             border-bottom: 25px solid transparent; 
+             border-left:25px solid $blockquoteGrey;
+             position: absolute;
+             left:initial;
+             right:-33px;
+             top:25px;
+           }    
+           &:after{
+              border-top: 23px solid transparent;
+              border-bottom: 23px solid transparent;
+              border-left: 23px solid white;
+              position: absolute;
+              left:initial;
+              right: -28px;
+              top: 27px;
+           } 
+      }
+    }
+
+  p{
+      //text-align: left;
+    }
+
+
+  li:last-child{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  }
+}
+
+
+.testiBlockGrid2{
+  margin-bottom: 0;
+  color:white;
+
+   li:nth-child(1), li:nth-child(3){
+    
+      blockquote{
+        border:2px solid $offWhite;
+        color:white;
+        &:before, &:after{
+            content:"";
+            width: 0; 
+              height: 0; 
+              }
+        &:before{
+          border-right: 25px solid $offWhite;
+        }
+        &:after{
+          border-right: 23px solid $grey4 ;
+        }
+      }
+    }    
+
+  li:nth-child(2), li:nth-child(4){
+    
+      blockquote{
+        border:2px solid $offWhite;
+        color:white;
+        &:before{
+          border-left: 25px solid $offWhite;
+        }
+        &:after{
+          border-left: 23px solid $grey4 ;
+        }
+      }
+    }
+   
+}
+
+
+.testiBlockGrid3{
+  margin-bottom: 0;
+  color:white;
+  li:nth-child(1), li:nth-child(3){
+    
+      blockquote{
+        border:2px solid $offWhite2;
+        color:white;
+        &:before, &:after{
+            content:"";
+            width: 0; 
+              height: 0; 
+              }
+        &:before{
+          border-right: 25px solid $offWhite2;
+        }
+        &:after{
+          border-right: 23px solid $grey5;
+        }
+      }
+    }    
+  li:nth-child(2){ 
+    
+      blockquote{
+        color:white;
+        border:2px solid $offWhite2;
+        &:before{
+          border-left: 25px solid $offWhite2;
+        }
+        &:after{
+          border-left: 23px solid $grey5 ;
+        }
+      }
+    }  
+     
+}
+
+
+.testiBlockGridImg{
+  margin-bottom: 0;
+}
+
+
+  } /* min-width 641px, medium screens */

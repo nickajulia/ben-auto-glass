@@ -1,0 +1,578 @@
+{
+	"id": "Auto Glass",
+	"name": "Auto Glass Page", 
+	"mobile": true, 
+	"notes": "version 1.24", 
+	"syntax": 4, 
+	"version": 1.24,
+	"style": {
+		"html": "",
+		"replacements": [
+
+        {
+            "type": "color",
+            "name": "Header Background",
+            "find": "#272424"
+        },
+        {
+            "type": "color",
+            "name": "Header Bottom Border",
+            "find": "#000002"
+        },
+         {
+            "type": "color",
+            "name": "Image Tint overlay",
+            "find": "#00000A"
+        },
+        {
+            "type": "color",
+            "name": "Section 2 Grey Bg",
+            "find": "#383838"
+        },
+        {
+            "type": "color",
+            "name": "Section 3 Grey Bg",
+            "find": "#383837"
+        },
+        {
+            "type": "color",
+            "name": "Testimonal section1b Bg",
+            "find": "#fffffe"
+        },
+        {
+            "type": "color",
+            "name": "Testimonal section2b Bg",
+            "find": "#383839"
+        },
+       
+        {
+            "type": "color",
+           "name": "Testimonal section3a Bg",
+            "find": "#383836"
+        },
+         {
+            "type": "color",
+            "name": "Testimonal section1b quote border",
+            "find": "#6f6f6e"
+        },
+         {
+            "type": "color",
+            "name": "Testimonal section2b quote border",
+            "find": "#fffffd"
+        },
+        {
+            "type": "color",
+            "name": "Testimonal section2b quote border",
+            "find": "#fffffc"
+        },
+        {
+            "type": "color",
+            "name": "Icon Color",
+            "find": "#2E5884"
+        },
+
+        {
+            "type": "color",
+            "name": "Button Color",
+            "find": "#0068D8"
+        },
+        {
+            "type": "color",
+            "name": "Button Color Hover",
+            "find": "#0068D7"
+        },
+
+         {
+            "type": "color",
+            "name": "Bullet Color Top",
+            "find": "#4FA5FF"
+        },
+          {
+            "type": "color",
+            "name": "Bullet Color Bottom",
+            "find": "#0068D9"
+        }
+			
+		]
+	},
+	"form": {
+        "title": {
+            "css": {
+                "font-family": "Open Sans, sans-serif",   
+                "font-size": "18pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+        },
+        "submit": {
+            "css": {
+                "background-color": "#ffcb01;",
+                "border-color": "#ffb403;",
+                "border-width": "0pt;",
+                "border-style": "solid;",
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "14pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "Free Instant Access &raquo;"
+        },
+        "privacy": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "12pt;",
+                "letter-spacing": "-0.1em;"
+            },
+            "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+        }
+    },
+	"elements": [
+		
+        {
+            "id": "header",
+            "name": "Header container",
+            "type": "container"
+        },
+        {
+            "id": "hero",
+            "name": "Hero container",
+            "type": "container"
+        },
+        {
+            "id": "buttonHolder1",
+            "name": "Button1 container",
+            "type": "container"
+        },
+        {
+            "id": "buttonHolder1b",
+            "name": "Button 1b container",
+            "type": "container"
+        },
+         {
+            "id": "buttonHolder2",
+            "name": "Button2 container",
+            "type": "container"
+        },
+         {
+            "id": "buttonHolder3",
+            "name": "Button3 container",
+            "type": "container"
+        },
+        
+        {
+            "id": "section1a",
+            "name": "section1 container",
+            "type": "container"
+        },
+        
+        {
+            "id": "section2",
+            "name": "section2 container",
+            "type": "container"
+        },
+        {
+            "id": "section2a",
+            "name": "section 2a container",
+            "type": "container"
+        },
+       
+
+        {
+            "id": "section3",
+            "name": "section3 container",
+            "type": "container"
+        },
+         {
+            "id": "section3a",
+            "name": "section3a container",
+            "type": "container"
+        },
+        {
+            "id": "section4",
+            "name": "section4 container",
+            "type": "container"
+        },
+
+       
+        {
+            "id": "site-footer",
+            "name": "footer container",
+            "type": "container"
+        },
+         {
+            "id": "line1",
+            "name": "Line Divider 1",
+            "type": "container"
+        },
+        {
+            "id": "line2",
+            "name": "Line Divider 2",
+            "type": "container"
+        },
+        {
+            "id": "section1bGrid",
+            "name": "section1b Testimonals",
+            "type": "container"
+        },
+        {
+            "id": "section2bGrid",
+            "name": "section3a Testimonals",
+            "type": "container"
+        },
+        {
+            "id": "section3aGrid",
+            "name": "section1b Testimonals",
+            "type": "container"
+        },
+        {
+            "id": "section1bGridItem1",
+            "name": "section1b testi 1",
+            "type": "container"
+        },
+        {
+            "id": "section1bGridItem2",
+            "name": "section1b testi 2",
+            "type": "container"
+        },
+        {
+            "id": "section1bGridItem3",
+            "name": "section1b testi 3",
+            "type": "container"
+        },
+        {
+            "id": "section2bGridItem1",
+            "name": "section2b testi 1",
+            "type": "container"
+        },
+         {
+            "id": "section2bGridItem2",
+            "name": "section2b testi 2",
+            "type": "container"
+        },
+         {
+            "id": "section2bGridItem3",
+            "name": "section2b testi 3",
+            "type": "container"
+        },
+         {
+            "id": "section3aGridItem1",
+            "name": "section3a testi 1",
+            "type": "container"
+        },
+        {
+            "id": "section3aGridItem2",
+            "name": "section3a testi 2",
+            "type": "container"
+        },
+        {
+            "id": "section3aGridItem3",
+            "name": "section3a testi 3",
+            "type": "container"
+        },
+
+
+        {
+            "id": "logo",
+            "name": "Logo Img",
+            "type": "image"
+        },
+         {
+            "id": "heroBg",
+            "name": "Hero Background Img",
+            "type": "image"
+        },
+          {
+            "id": "section2aImg",
+            "name": "section2a Image",
+            "type": "image"
+        },
+         {
+            "id": "section2GridSpacer1",
+            "name": "Section2 Grid Spacer 1",
+            "type": "image"
+        },
+         {
+            "id": "section2GridSpacer2",
+            "name": "Section2 Grid Spacer 2",
+            "type": "image"
+        },
+        {
+            "id": "section2GridSpacer3",
+            "name": "Section2 Grid Spacer 3",
+            "type": "image"
+        },
+
+        {
+            "id": "section1bBlockGridImg1",
+            "name": "Section1 testi img1",
+            "type": "image"
+        },
+         {
+            "id": "section1bBlockGridImg2",
+            "name": "Section1 testi img2",
+            "type": "image"
+        },
+         {
+            "id": "section1bBlockGridImg3",
+            "name": "Section1 testi img3",
+            "type": "image"
+        },
+            {
+            "id": "section2bBlockGridImg1",
+            "name": "section2 testi img1",
+            "type": "image"
+        },
+         {
+            "id": "section2bBlockGridImg2",
+            "name": "section2 testi img2",
+            "type": "image"
+        },
+         {
+            "id": "section2bBlockGridImg3",
+            "name": "section2 testi img3",
+            "type": "image"
+        },
+                    {
+            "id": "section3aBlockGridImg1",
+            "name": "section3 testi img1",
+            "type": "image"
+        },
+         {
+            "id": "section3aBlockGridImg2",
+            "name": "section3 testi img2",
+            "type": "image"
+        },
+         {
+            "id": "section3aBlockGridImg3",
+            "name": "section3 testi img3",
+            "type": "image"
+        },
+
+
+
+
+
+
+
+         {  
+            "id": "button1",
+            "name": "Button 1",
+            "type": "link"
+        },
+        {  
+            "id": "button1b",
+            "name": "Button 2",
+            "type": "link"
+        },
+        {  
+            "id": "button3",
+            "name": "Button 3",
+            "type": "link"
+        },
+
+
+
+
+        {
+            "id": "headerText",
+            "name": "Header Text",
+            "type": "text"
+        },
+        {
+            "id": "logoText",
+            "name": "Logo Text",
+            "type": "text"
+        },
+        {
+            "id": "heroHeadline",
+            "name": "Headline",
+            "type": "text"
+        },
+        {
+            "id": "heroSubHead",
+            "name": "SubHeadline",
+            "type": "text"
+        },
+        
+        {
+            "id": "section1aQuote",
+            "name": "Section 1 Quote",
+            "type": "text"
+        },
+        {
+            "id": "section1aText",
+            "name": "Section 1 text",
+            "type": "text"
+        },
+         {
+            "id": "section2aText",
+            "name": "Section 2a text",
+            "type": "text"
+        },
+        
+        {
+            "id": "section2GridText1",
+            "name": "Section2 Grid Text 1",
+            "type": "text"
+        },
+         {
+            "id": "section2GridText2",
+            "name": "Section2 Grid Text 2",
+            "type": "text"
+        },
+         {
+            "id": "section2GridText3",
+            "name": "Section2 Grid Text 3",
+            "type": "text"
+        },
+         {
+            "id": "section2GridText4",
+            "name": "Section2 Grid Text 4",
+            "type": "text"
+        },
+        {
+            "id": "section3Title",
+            "name": "Section 3 Title",
+            "type": "text"
+        },
+       
+          {
+              "id": "bulletList",
+              "name": "Section 3 List",
+              "type": "text"
+          },
+           {
+              "id": "section4Text",
+              "name": "Section4 Text",
+              "type": "text"
+          },
+          {
+              "id": "footerList",
+              "name": "Footer Links",
+              "type": "text"
+          },
+          {
+              "id": "copyright",
+              "name": "copyright text",
+              "type": "text"
+          },
+           {
+            "id": "section1bBlockGridText1",
+            "name": "Section1 testi Text 1",
+            "type": "text"
+            },
+            {
+            "id": "section1bBlockGridText2",
+            "name": "Section1 testi Text 2",
+            "type": "text"
+            },
+            {
+            "id": "section1bBlockGridText3",
+            "name": "Section1 testi Text 3",
+            "type": "text"
+            },
+            {
+            "id": "section1bBlockGridBq1",
+            "name": "Section1 testi quote 1",
+            "type": "text"
+            },
+             {
+            "id": "section1bBlockGridBq2",
+            "name": "Section1 testi quote 2",
+            "type": "text"
+            },
+             {
+            "id": "section1bBlockGridBq3",
+            "name": "Section1 testi quote 3",
+            "type": "text"
+            },
+            {
+            "id": "section2bBlockGridText1",
+            "name": "section2 testi Text 1",
+            "type": "text"
+            },
+            {
+            "id": "section2bBlockGridText2",
+            "name": "section2 testi Text 2",
+            "type": "text"
+            },
+            {
+            "id": "section2bBlockGridText3",
+            "name": "section2 testi Text 3",
+            "type": "text"
+            },
+            {
+            "id": "section2bBlockGridBq1",
+            "name": "section2 testi quote 1",
+            "type": "text"
+            },
+             {
+            "id": "section2bBlockGridBq2",
+            "name": "section2 testi quote 2",
+            "type": "text"
+            },
+             {
+            "id": "section2bBlockGridBq3",
+            "name": "section2 testi quote 3",
+            "type": "text"
+            },
+            {
+            "id": "section3aBlockGridText1",
+            "name": "section3a testi Text 1",
+            "type": "text"
+            },
+            {
+            "id": "section3aBlockGridText2",
+            "name": "section3a testi Text 2",
+            "type": "text"
+            },
+            {
+            "id": "section3aBlockGridText3",
+            "name": "section3a testi Text 3",
+            "type": "text"
+            },
+            {
+            "id": "section3aBlockGridBq1",
+            "name": "section3a testi quote 1",
+            "type": "text"
+            },
+             {
+            "id": "section3aBlockGridBq2",
+            "name": "section3a testi quote 2",
+            "type": "text"
+            },
+             {
+            "id": "section3aBlockGridBq3",
+            "name": "section3a testi quote 3",
+            "type": "text"
+            },
+
+
+
+
+
+        {
+              "id": "glassEmbed",
+              "name": "Api for medium screens up",
+              "type": "embed",
+              "data": {
+                    "code":"<iframe id=\"apiIframe2\" src=\"https://www.windshields.com/api.aspx?vendorid=982\" height=\"600\" width=\"500\" frameborder=\"0\"></iframe>"
+              }
+          },
+          {
+              "id": "glassEmbed2",
+              "name": "Api for small devices",
+              "type": "embed",
+               "data": {
+                    "code":"<iframe id=\"apiIframe2\" src=\"https://www.windshields.com/api.aspx?vendorid=982\" height=\"600\" frameborder=\"0\"></iframe>"
+              }
+              
+          }
+
+       
+
+
+
+	]
+}
+
+

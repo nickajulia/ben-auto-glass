@@ -1,0 +1,195 @@
+//_mediumscreen.scss
+
+// Medium screens
+@media only screen and (min-width: 40.063em) { 
+
+/*---------------------- header 
+---------*/
+	#subhead{
+		color: #000000;
+		}
+
+	
+	.site-header{
+		height: 800px;
+	}
+
+	.headline{
+		font-size: 3.75rem;
+	}
+	site-header{
+		background-position: 50% 0px;
+	}
+
+/*---------------------- form 
+---------*/
+
+	.form-button, .form-button2 {
+		min-width: 150px;
+		padding: 1rem 4.68rem 1rem 4.68rem;
+
+	}
+
+
+	.form-snipit{
+		color: #000000;
+	}
+
+/*---------------------- intro test 
+---------*/
+
+
+#section1 { display: block; background: #fff; position: relative; z-index: 10; padding: 0; overflow: hidden; }
+#section1 h2 { padding: 60px 0 20px 0; margin: 0; text-align: center; }
+#section1 h2 strong:before { content: ""; display: block; width: 0; height: 0; }
+#section1 .tabs.overview.block-list { width: 100%; }
+#section1 .tabs.overview.block-list:after { content: ""; display: block; width: 100%; height: 0; clear: both; }
+#section1 .tabs.overview.block-list li { float: left; width: 50%; font-size: 11px; }
+#section1 .tabs.overview.block-list li a { padding: 20px; }
+#section1 h6, #section1 .zeta { font-size: 16px; padding: 0; margin: 0 0 15px 0; line-height: 1.4; }
+#section1 .tab_content { padding: 30px 0; text-align: center; }
+@media only screen and (min-width: 700px) { #section1 .tab_content { padding: 0; text-align: left; } }
+#section1 .tab_content#tab-one .text-content { text-align: center; }
+@media only screen and (min-width: 640px) { #section1 .tab_content#tab-one .text-content { padding: 45px 0 0 0; } }
+#section1 .tab_content#tab-one .text-content span { display: none; color: #333333; font-family: "AvenirNextLTPro-Medium"; }
+#section1 .tab_content#tab-one .graph .icon-play-arrow { background: url(../img/analytics-graphs.png) center center no-repeat; background-size: auto 100%; text-align: center; width: 100%; height: 0; padding: 20% 0 15%; display: block; margin: 0 0 10px 0; color: #fff; position: relative; font-family: "AvenirNextLTPro-Medium"; font-size: 12px; }
+#section1 .tab_content#tab-one .graph .icon-play-arrow:before { position: absolute; border: 1px solid #fff; display: block; width: 30px; height: 30px; background: rgba(255, 255, 255, 0.3); border-radius: 50%; line-height: 30px; text-align: center; position: absolute; top: 50%; left: 50%; margin: -35px 0 0 -16px; font-size: 10px; text-indent: 2px; }
+@media only screen and (min-width: 700px) { #section1 { min-height: 500px; }
+  #section1 .row, #section1 .columns.large-12 { min-height: 500px; }
+  #section1 h2 { margin: 0 0 0 0; padding: 120px 0 0 0; max-width: 28%; text-align: left; }
+  #section1 h2 strong:before { display: none; }
+  #section1 .tabs.overview.block-list { width: 28%; margin: 50px 0 40px 0; padding: 0; position: relative; z-index: 10; }
+  #section1 .tabs.overview.block-list li { float: none; width: 100%; font-size: 14px; }
+  #section1 .tabs.overview.block-list li a { padding: 20px 20px 20px 30px; }
+  #section1 .tab-wrapper { position: absolute; z-index: 2; display: block; height: 100%; width: 72%; left: 28%; top: 0; }
+  #section1 .visual { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 640px) { #section1 .visual { display: block; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content { position: relative; height: 100%; width: 100%; }
+  #section1 .tab_content#tab-one .text-content { display: block; left: 18%; padding: 0; position: absolute; right: 18%; text-align: left; top: 70px; width: auto; z-index: 2; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-one .text-content { left: 10%; right: inherit; padding: 0; width: 310px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-one .laptop { background: url(../images/intro-why-macbook.jpg) center center no-repeat; background-size: 100% auto; bottom: 20px; display: block; height: 300px; left: 50%; margin: 0 0 0 -220px; position: absolute; right: inherit; top: inherit; width: 440px; z-index: 1; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-one .laptop { left: inherit; display: block; width: 62%; height: 340px; top: 70px; right: -60px; margin: 0; bottom: inherit; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-one .laptop .icon-play-arrow { font-family: "AvenirNextLTPro-Medium"; font-size: 14px; text-transform: uppercase; position: absolute; right: 50%; width: 100px; text-align: center; margin: -60px -50px 0 0; padding: 110px 0 0 0; color: #fff; top: 50%; background: none; }
+  #section1 .tab_content#tab-one .laptop .icon-play-arrow:before { border: 3px solid #fff; display: block; width: 90px; height: 90px; background: rgba(255, 255, 255, 0.3); border-radius: 50%; line-height: 90px; text-align: center; position: absolute; top: 0; left: 50%; margin: 0 0 0 -48px; font-size: 30px; text-indent: 5px; -webkit-transition: border 0.3s linear; -moz-transition: border 0.3s linear; transition: border 0.3s linear; }
+  #section1 .tab_content#tab-one .laptop .icon-play-arrow:hover { color: #00aff0; }
+  #section1 .tab_content#tab-one .laptop .icon-play-arrow:hover:before { border: 3px solid #00aff0; }
+  #section1 .tab_content#tab-one .tablet { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-one .tablet { position: absolute; z-index: 1; bottom: 0; right: -50px; display: block; width: 719px; height: 210px; background: url(../images/intro-why-ipad.jpg) center center no-repeat; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-two .text-content { position: absolute; right: 5%; left: inherit; width: 80%; z-index: 3; top: 170px; } }
+@media only screen and (min-width: 700px) and (min-width: 800px) { #section1 .tab_content#tab-two .text-content { left: 8%; top: 50%; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-two .text-content { } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-two .iphone, #section1 .tab_content#tab-two .ipad, #section1 .tab_content#tab-two .avatars { display: block; position: absolute; }
+  #section1 .tab_content#tab-two .iphone { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 800px) { #section1 .tab_content#tab-two .iphone { display: block; width: 372px; height: 185px; background: url(../images/wf-personalization-iphone.jpg) center center no-repeat; left: 250px; 
+  //top: 100px; 
+  z-index: 1; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-two .iphone { left: 150px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-two .ipad { width: 464px; height: 300px; background: url(../images/wf-personalization-ipad.jpg) center center no-repeat; 
+  //bottom: 0; 
+  right: 5%; z-index: 1; } }
+@media only screen and (min-width: 700px) and (min-width: 800px) { #section1 .tab_content#tab-two .ipad { right: -200px; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-two .ipad { right: -100px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-two .avatars { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-two .avatars { display: block; right: -10px; bottom: 290px; width: 292px; height: 262px; background: url(../images/wf-personalization-avatars.png) center center no-repeat; z-index: 2; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-three .imac, #section1 .tab_content#tab-three .comp, #section1 .tab_content#tab-three .text-content { position: absolute; }
+  #section1 .tab_content#tab-three .text-content { right: 15%; top: 150px; width: 367px; } }
+@media only screen and (min-width: 700px) and (min-width: 970px) { #section1 .tab_content#tab-three .text-content { right: 5%; } }
+@media only screen and (min-width: 700px) and (min-width: 1200px) { #section1 .tab_content#tab-three .text-content { right: 1%; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-three .imac { width: 367px; height: 289px; background: url(../images/wf-inspiration-imac.jpg) center center no-repeat; bottom: 0; right: 15%; } }
+@media only screen and (min-width: 700px) and (min-width: 970px) { #section1 .tab_content#tab-three .imac { right: 5%; } }
+@media only screen and (min-width: 700px) and (min-width: 1200px) { #section1 .tab_content#tab-three .imac { right: 1%; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-three .comp { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 970px) { #section1 .tab_content#tab-three .comp {display:block;}}
+//@media only screen and (min-width: 700px) and (min-width: 970px) { #section1 .tab_content#tab-three .comp { display: block; width: 170px; height: 455px; background: url(../images/wf-inspiration-comp.jpg) center center no-repeat; background-size: 100% auto; bottom: 50px; left: 100px; } }
+//@media only screen and (min-width: 700px) and (min-width: 1200px) { #section1 .tab_content#tab-three .comp { width: 345px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-four .iphone, #section1 .tab_content#tab-four .comp, #section1 .tab_content#tab-four .text-content { position: absolute; }
+  #section1 .tab_content#tab-four .text-content { left: 20%; right: 20%; top: 100px; width: auto; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-four .text-content { left: 70px; right: inherit; 
+  //top: 100px; 
+  width: 400px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-four .iphone { width: 294px; height: 355px; background: url(../images/wf-connectivity-iphone.jpg) center bottom no-repeat; bottom: 0; left: 50%; margin: 0 0 0 -150px; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-four .iphone { left: 8%; margin: 0; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-four .comp { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-four .comp { display: block; width: 280px; height: 90%; background: url(../images/wf-connectivity-comp.jpg) center bottom no-repeat; background-size: 100% auto; bottom: 100px; right: 5%; } }
+@media only screen and (min-width: 700px) and (min-width: 1200px) { #section1 .tab_content#tab-four .comp { width: 421px; right: 0; bottom: 20px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-five .comp-one, #section1 .tab_content#tab-five .comp-two, #section1 .tab_content#tab-five .text-content { position: absolute; }
+  #section1 .tab_content#tab-five .text-content { left: 10%; right: 10%; top: 10rem; width: auto; } }
+@media only screen and (min-width: 700px) and (min-width: 850px) { #section1 .tab_content#tab-five .text-content { left: 23%; right: inherit; width: 300px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-five .comp-one { background: url(../images/wf-convenience-top.jpg) center center no-repeat; background-size: 100% auto; width: 550px; height: 281px; top: 50px; right: -75px; } }
+@media only screen and (min-width: 700px) and (min-width: 950px) { #section1 .tab_content#tab-five .comp-one { width: 756px; right: -150px; } }
+@media only screen and (min-width: 700px) and (min-width: 1150px) { #section1 .tab_content#tab-five .comp-one { right: -100px; } }
+@media only screen and (min-width: 700px) { #section1 .tab_content#tab-five .comp-two { display: none; } }
+@media only screen and (min-width: 700px) and (min-width: 850px) { #section1 .tab_content#tab-five .comp-two { background: url(../images/wf-convenience-bottom.jpg) center center no-repeat; width: 450px; height: 300px; bottom: 0; right: -180px; display: block; } }
+@media only screen and (min-width: 700px) and (min-width: 1150px) { #section1 .tab_content#tab-five .comp-two { right: -100px; } }
+
+
+
+.bg-white { background: #fff; }
+
+.bg-charcoal { background: #333333; }
+
+.bg-purple { background: #8d218d; }
+
+.bg-navy { background: #243742; }
+
+.bg-green, .app-personal-trainer #sub-hero { background: #26ad61; }
+
+.bg-turq, .app-yoga #sub-hero { background: #56C4CC; }
+
+.bg-greyLight { background: #fbfbfb; border-top: 1px solid #dbdbdb; border-bottom: 1px solid #dbdbdb; -webkit-box-shadow: 0px 1px 0 #fff inset, 0px -1px 0 #fff inset; -moz-box-shadow: 0px 1px 0 #fff inset, 0px -1px 0 #fff inset; box-shadow: 0px 1px 0 #fff inset, 0px -1px 0 #fff inset; }
+
+.bg-blackTrans { background: #000; background: rgba(0, 0, 0, 0.6); }
+
+.tab_content { display: none; }
+.tab_content.active { display: block; }
+
+.block-list { margin: 0; padding: 0; }
+.block-list li { margin: 0; padding: 0; line-height: 1; font-size: 14px; text-transform: uppercase; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; transition: all 0.2s ease-out;list-style: none; }
+.block-list li.active { position: relative; }
+@media only screen and (min-width: 700px) { .block-list li.active { margin: 10px 0; } }
+.block-list li.active:before { font-family: 'icomoon'; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #fff; position: absolute; right: 5px; top: 20px; z-index: 100; }
+@media only screen and (min-width: 700px) { .block-list li.active:before { right: 20px; } }
+@media only screen and (min-width: 700px) { .block-list li:first-child.active { margin-top: 0; }
+  .block-list li:last-child.active { margin-bottom: 0; }
+  .block-list li.above { margin-bottom: 10px; }
+  .block-list li.below { margin-top: 10px; } }
+.block-list li a { display: block; color: #fff; padding: 20px 20px 20px 30px; position: relative; -webkit-transition: all 0.2s ease-out; -moz-transition: all 0.2s ease-out; transition: all 0.2s ease-out; }
+.block-list li a.block-purple { background: #8d218d; }
+.block-list li a.block-purple:hover { background: #a226a2; }
+.block-list li a.block-orange { background: #e89f34; }
+.block-list li a.block-orange:hover { background: #ebaa4b; }
+.block-list li a.block-orangeLight { background: #e9943f; }
+.block-list li a.block-orangeLight:hover { background: #e68728; }
+.block-list li a.block-pinkLight { background: #a66290; }
+.block-list li a.block-pinkLight:hover { background: #985683; }
+.block-list li a.block-cyan { background: #00aff0; }
+.block-list li a.block-cyan:hover { background: #0abdff; }
+.block-list li a.block-navy { background: #243742; }
+.block-list li a.block-navy:hover { background: #2d4553; }
+.block-list li a.block-grey { background: #5a5a5a; }
+.block-list li a.block-grey:hover { background: #676767; }
+.block-list li a.block-green { background: #26ad61; }
+.block-list li a.block-green:hover { background: #2bc26d; }
+.block-list li a.block-greenLight { background: #74C59E; }
+.block-list li a.block-greenLight:hover { background: #86cdab; }
+
+.block-list li a.block-yellow {
+    background:rgba(255, 189, 14, 0.8); 
+      &:hover {background: #ffbd0e;}
+}
+
+.block-list li a:before { font-size: 28px; left: 25px; position: absolute; top: 14px; color: rgba(255, 255, 255, 0.5); }
+@media only screen and (max-width: 767px) { .block-list.has-icons:after { display: block; width: 100%; height: 0; clear: both; content: " "; } }
+@media only screen and (max-width: 767px) { .block-list.has-icons li { opacity: 0.5; width: 25%; float: left; } }
+@media only screen and (max-width: 767px) { .block-list.has-icons li.active { opacity: 1; margin: 0; }
+  .block-list.has-icons li.active:before { display: none; } }
+@media only screen and (max-width: 767px) { .block-list.has-icons li.above { margin: 0; } }
+@media only screen and (max-width: 767px) { .block-list.has-icons li.below { margin: 0; } }
+.block-list.has-icons li a { padding: 20px 20px 20px 80px; }
+@media only screen and (max-width: 767px) { .block-list.has-icons li a { padding: 20px 0; } }
+
+
+#intro-home .visual { display: block; }
+
+
+} /* min-width 641px, medium screens */
