@@ -2,9 +2,9 @@
 	"id": "Auto Glass",
 	"name": "Auto Glass Page", 
 	"mobile": true, 
-	"notes": "version 1.24", 
+	"notes": "version 1.3", 
 	"syntax": 4, 
-	"version": 1.24,
+	"version": 1.3,
 	"style": {
 		"html": "",
 		"replacements": [
@@ -368,7 +368,16 @@
             "name": "Button 3",
             "type": "link"
         },
-
+        {  
+            "id": "button1b1",
+            "name": "Button Testi 2b",
+            "type": "link"
+        },
+        {  
+            "id": "button3a1",
+            "name": "Button Testi 3a",
+            "type": "link"
+        },
 
 
 
@@ -543,6 +552,11 @@
              {
             "id": "section3aBlockGridBq3",
             "name": "section3a testi quote 3",
+            "type": "text"
+            },
+             {
+            "id": "section3aGridText",
+            "name": "section3a Header",
             "type": "text"
             },
 

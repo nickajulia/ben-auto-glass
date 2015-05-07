@@ -13412,6 +13412,9 @@ body {
 .grey4 {
   background-color: #383839; }
 
+.grey5 {
+  background-color: #383836; }
+
 .yellow {
   background-color: #ffbd0e; }
 
@@ -13606,7 +13609,7 @@ img.bg {
 /*-- section 1a --*/
 #section1a blockquote {
   border-left: 0px solid #ccc;
-  margin: 1.5em 10px;
+  margin: 0 10px 1em 10px;
   padding: 0.5em 10px; }
   #section1a blockquote p {
     display: inline;
@@ -13684,7 +13687,7 @@ img.bg {
 .flag4:before {
   border-top: 13px solid #383839; }
 
-.flag4:before {
+.flag5:before {
   border-top: 13px solid #383836; }
 
 /*-------------------
@@ -13868,6 +13871,9 @@ ol ol li:last-child {
   margin-top: calc(30px);
   margin-left: auto;
   margin-right: auto; }
+  .testiBlockGrid p, .testiBlockGrid2 p, .testiBlockGrid3 p {
+    line-height: 1;
+    letter-spacing: -.2px; }
   .testiBlockGrid li:last-child, .testiBlockGrid2 li:last-child, .testiBlockGrid3 li:last-child {
     margin-bottom: 1rem;
     margin-top: 1rem; }
@@ -13889,7 +13895,7 @@ ol ol li:last-child {
     .testiBlockGrid li blockquote:after, .testiBlockGrid2 li blockquote:after, .testiBlockGrid3 li blockquote:after {
       border-right: 23px solid transparent;
       border-left: 23px solid transparent;
-      border-bottom: 23px solid white;
+      border-bottom: 23px solid #fffffe;
       position: absolute;
       left: 45.4%;
       top: -20px; }
