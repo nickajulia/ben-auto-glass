@@ -35,7 +35,7 @@
 
 .bgImg{
   
-  height: calc(650px);
+  height: calc(700px);
 }
 
 #hero {
@@ -174,7 +174,7 @@
           &:after{
              border-top: 23px solid transparent;
              border-bottom: 23px solid transparent;
-             border-right: 23px solid white;
+             border-right: 23px solid $section1bGrid;
              position: absolute;
              left: -28px;
              top: 27px;
@@ -206,7 +206,7 @@
            &:after{
               border-top: 23px solid transparent;
               border-bottom: 23px solid transparent;
-              border-left: 23px solid white;
+              border-left: 23px solid $section1bGrid;
               position: absolute;
               left:initial;
               right: -28px;

@@ -13982,7 +13982,7 @@ ol ol li:last-child {
     height: calc(600px); }
 
   .bgImg {
-    height: calc(650px); }
+    height: calc(700px); }
 
   #hero h1 {
     color: #ffffff;
@@ -14097,7 +14097,7 @@ ol ol li:last-child {
       .testiBlockGrid li:nth-child(1) blockquote:after, .testiBlockGrid li:nth-child(3) blockquote:after, .testiBlockGrid2 li:nth-child(1) blockquote:after, .testiBlockGrid2 li:nth-child(3) blockquote:after, .testiBlockGrid3 li:nth-child(1) blockquote:after, .testiBlockGrid3 li:nth-child(3) blockquote:after {
         border-top: 23px solid transparent;
         border-bottom: 23px solid transparent;
-        border-right: 23px solid white;
+        border-right: 23px solid #fffffe;
         position: absolute;
         left: -28px;
         top: 27px; }
@@ -14120,7 +14120,7 @@ ol ol li:last-child {
       .testiBlockGrid li:nth-child(2) blockquote:after, .testiBlockGrid li:nth-child(4) blockquote:after, .testiBlockGrid2 li:nth-child(2) blockquote:after, .testiBlockGrid2 li:nth-child(4) blockquote:after, .testiBlockGrid3 li:nth-child(2) blockquote:after, .testiBlockGrid3 li:nth-child(4) blockquote:after {
         border-top: 23px solid transparent;
         border-bottom: 23px solid transparent;
-        border-left: 23px solid white;
+        border-left: 23px solid #fffffe;
         position: absolute;
         left: initial;
         right: -28px;
