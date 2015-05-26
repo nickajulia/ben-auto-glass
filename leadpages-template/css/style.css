@@ -13470,15 +13470,17 @@ h2 {
 
 .beforeMsb {
   vertical-align: text-bottom;
-  line-height: 30px; }
+  line-height: 30px;
+  color: #fffff1; }
 
 .headerTextLg {
   font-family: 'Open Sans', sans-serif;
   font-size: calc(25px);
   letter-spacing: -1.5px;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #fffff2; }
   .headerTextLg a {
-    color: white; }
+    color: #fffff3; }
     .headerTextLg a:hover {
       text-decoration: none; }
 
@@ -13606,6 +13608,10 @@ img.bg {
 .redBtn2 {
   font-size: calc(22px) !important; }
 
+/*--Rep Loop --*/
+.repLoopInner {
+  margin-top: 40px; }
+
 /*-- section 1a --*/
 #section1a blockquote {
   border-left: 0px solid #ccc;
@@ -13651,7 +13657,7 @@ img.bg {
 
 .section2Grid li p {
   font-size: calc(25px);
-  color: white;
+  color: #ffffff;
   margin-bottom: calc(15px); }
 
 .faBlue {
@@ -13662,7 +13668,7 @@ img.bg {
   margin: 0 auto;
   position: relative;
   background: #ffffff;
-  color: white;
+  color: #ffffff;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-align: center;
@@ -13901,19 +13907,19 @@ ol ol li:last-child {
       top: -20px; }
 
 .testiBlockGrid2 {
-  color: white; }
+  color: #ffffff; }
   .testiBlockGrid2 li blockquote {
     border: 2px solid #fffffd;
-    color: white; }
+    color: #ffffff; }
     .testiBlockGrid2 li blockquote:before {
       border-bottom: 25px solid #fffffd; }
     .testiBlockGrid2 li blockquote:after {
       border-bottom-color: #383839; }
 
 .testiBlockGrid3 {
-  color: white; }
+  color: #ffffff; }
   .testiBlockGrid3 li blockquote {
-    color: white;
+    color: #ffffff;
     border: 2px solid #fffffc; }
     .testiBlockGrid3 li blockquote:before {
       border-bottom: 25px solid #fffffc; }
@@ -14082,7 +14088,8 @@ ol ol li:last-child {
     .testiBlockGrid li:nth-child(1) blockquote, .testiBlockGrid li:nth-child(3) blockquote, .testiBlockGrid2 li:nth-child(1) blockquote, .testiBlockGrid2 li:nth-child(3) blockquote, .testiBlockGrid3 li:nth-child(1) blockquote, .testiBlockGrid3 li:nth-child(3) blockquote {
       border-left: 0;
       padding: 5px;
-      border: 2px solid #6f6f6e; }
+      border: 2px solid #6f6f6e;
+      min-height: 100px; }
       .testiBlockGrid li:nth-child(1) blockquote:before, .testiBlockGrid li:nth-child(1) blockquote:after, .testiBlockGrid li:nth-child(3) blockquote:before, .testiBlockGrid li:nth-child(3) blockquote:after, .testiBlockGrid2 li:nth-child(1) blockquote:before, .testiBlockGrid2 li:nth-child(1) blockquote:after, .testiBlockGrid2 li:nth-child(3) blockquote:before, .testiBlockGrid2 li:nth-child(3) blockquote:after, .testiBlockGrid3 li:nth-child(1) blockquote:before, .testiBlockGrid3 li:nth-child(1) blockquote:after, .testiBlockGrid3 li:nth-child(3) blockquote:before, .testiBlockGrid3 li:nth-child(3) blockquote:after {
         content: "";
         width: 0;
@@ -14104,7 +14111,8 @@ ol ol li:last-child {
     .testiBlockGrid li:nth-child(2) blockquote, .testiBlockGrid li:nth-child(4) blockquote, .testiBlockGrid2 li:nth-child(2) blockquote, .testiBlockGrid2 li:nth-child(4) blockquote, .testiBlockGrid3 li:nth-child(2) blockquote, .testiBlockGrid3 li:nth-child(4) blockquote {
       border-left: 0;
       padding: 5px;
-      border: 2px solid #6f6f6e; }
+      border: 2px solid #6f6f6e;
+      min-height: 100px; }
       .testiBlockGrid li:nth-child(2) blockquote:before, .testiBlockGrid li:nth-child(2) blockquote:after, .testiBlockGrid li:nth-child(4) blockquote:before, .testiBlockGrid li:nth-child(4) blockquote:after, .testiBlockGrid2 li:nth-child(2) blockquote:before, .testiBlockGrid2 li:nth-child(2) blockquote:after, .testiBlockGrid2 li:nth-child(4) blockquote:before, .testiBlockGrid2 li:nth-child(4) blockquote:after, .testiBlockGrid3 li:nth-child(2) blockquote:before, .testiBlockGrid3 li:nth-child(2) blockquote:after, .testiBlockGrid3 li:nth-child(4) blockquote:before, .testiBlockGrid3 li:nth-child(4) blockquote:after {
         content: "";
         width: 0;

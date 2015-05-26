@@ -262,14 +262,16 @@ color: $black;
 .beforeMsb{
   vertical-align: text-bottom;
   line-height: 30px;
+  color:#fffff1;
 }
 .headerTextLg{
   font-family: 'Open Sans', sans-serif;
   font-size: calc(25px);
   letter-spacing: -1.5px;
   font-weight: 600;
+  color: #fffff2;
     a{
-      color: white;
+      color: #fffff3;
       &:hover{
         text-decoration: none;
       }
@@ -448,7 +450,11 @@ width: 100%;
 
 
 
+/*--Rep Loop --*/
 
+.repLoopInner{
+  margin-top: 40px;
+}
 
 
 
@@ -507,7 +513,7 @@ width: 100%;
 
 .section2Grid  li p {
     font-size: calc(25px);
-    color:white;
+    color:#ffffff;
     margin-bottom: calc(15px);
   
 }
@@ -523,7 +529,7 @@ color: $faBlue;
   //padding-top: 15px;
   position: relative; 
   background: $white;
-  color: white;
+  color: #ffffff;
   font-size: 11px;
   letter-spacing: 0.2em;
   text-align: center;
@@ -805,12 +811,12 @@ ol ol li:last-child {margin-bottom:0;}
   }  
     
 .testiBlockGrid2{
-  color:white; 
+  color:#ffffff; 
   li{ 
     
       blockquote{
         border:2px solid $offWhite;
-        color:white;
+        color:#ffffff;
         &:before{
           border-bottom: 25px solid $offWhite;
         }
@@ -823,11 +829,11 @@ ol ol li:last-child {margin-bottom:0;}
 
 
 .testiBlockGrid3{
-  color:white;
+  color:#ffffff;
   li{ 
     
       blockquote{
-        color:white;
+        color:#ffffff;
         border:2px solid $offWhite2;
         &:before{
           border-bottom: 25px solid $offWhite2;
